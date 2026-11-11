@@ -1,6 +1,6 @@
 # Ressources communautaires
 
-Recueil de ressources libres, publié sur https://pseudo.github.io.
+Recueil de ressources libres, publié sur https://4nf8hvwvry-collab.github.io/freefenelon/.
 
 Tout le contenu de ce dépôt est placé dans le **domaine public** via [CC0 1.0](LICENSE) : vous pouvez le copier, le modifier, le redistribuer et l'utiliser, y compris à des fins commerciales, sans demander d'autorisation ni citer de source.
 
@@ -27,6 +27,8 @@ Chaque push sur `main` déclenche le workflow `.github/workflows/pages.yml`, qui
 
 Prérequis côté dépôt : **Settings > Pages > Source : GitHub Actions**, puis **Enforce HTTPS**.
 
+Le workflow peut aussi être relancé à la main depuis l'onglet **Actions > Publication GitHub Pages > Run workflow**.
+
 ## Mise en place locale
 
 Après le clone, activer les contrôles avant commit :
@@ -40,7 +42,9 @@ Le hook `pre-commit` bloque le commit si :
 - l'adresse e-mail Git n'est pas une adresse `@users.noreply.github.com` ;
 - la signature des commits est activée ;
 - le fuseau horaire n'est pas UTC ;
-- un fichier ajouté contient des métadonnées identifiantes (auteur, GPS, appareil, logiciel), si `exiftool` est installé.
+- un fichier ajouté ou modifié contient des métadonnées identifiantes (auteur, GPS, appareil, logiciel), si `exiftool` est installé.
+
+Outils conseillés sur macOS : `brew install exiftool mat2`.
 
 Commande de commit recommandée :
 

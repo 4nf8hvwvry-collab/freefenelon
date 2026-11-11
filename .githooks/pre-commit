@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# Contrôles avant commit : identité anonyme, pas de signature, UTC, pas de métadonnées identifiantes.
+
+erreur=0
+echec() { printf 'pre-commit : %s\n' "$1" >&2; erreur=1; }
+
+email=$(git config user.email)
+case "$email" in
+  *@users.noreply.github.com) ;;
+  *) echec "l'e-mail Git \"$email\" n'est pas une adresse @users.noreply.github.com (git config user.email ...)." ;;
+esac
+
+if [ "$(git config --bool commit.gpgsign)" = "true" ]; then
+  echec "la signature des commits est activée (git config commit.gpgsign false)."
+fi
+
+if [ "$(date +%z)" != "+0000" ]; then
+  echec "le fuseau horaire n'est pas UTC (committer avec : TZ=UTC git commit ...)."
+fi
+
+if command -v exiftool >/dev/null 2>&1; then
+  tmp=$(mktemp -d)
+  trap 'rm -rf "$tmp"' EXIT
+  git diff --cached --name-only --diff-filter=ACMR -z | while IFS= read -r -d '' f; do
+    nom=${f##*/}
+    case "$nom" in *.*) copie="$tmp/fichier.${nom##*.}" ;; *) copie="$tmp/fichier" ;; esac
+    git show ":$f" > "$copie" 2>/dev/null || continue
+    trouve=$(exiftool -q -q -s -m \
+      -Author -Creator -Artist -By-line -OwnerName -LastModifiedBy -Company -Manager \
+      -CreatorTool -Software -Producer -HostComputer \
+      -Make -Model -SerialNumber -LensSerialNumber -BodySerialNumber \
+      -GPS:all '-XMP-exif:GPS*' "$copie" 2>/dev/null)
+    if [ -n "$trouve" ]; then
+      printf 'pre-commit : métadonnées identifiantes dans %s :\n%s\n' "$f" "$trouve" >&2
+      printf '  Nettoyer avec : mat2 --inplace --lightweight "%s" puis git add.\n' "$f" >&2
+      echo 1 > "$tmp/echec"
+    fi
+  done
+  [ -f "$tmp/echec" ] && erreur=1
+else
+  printf 'pre-commit : exiftool absent, contrôle des métadonnées ignoré (brew install exiftool).\n' >&2
+fi
+
+exit $erreur

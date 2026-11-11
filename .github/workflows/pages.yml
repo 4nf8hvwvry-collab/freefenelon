@@ -1,0 +1,54 @@
+name: Publication GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer mat2
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq mat2
+
+      - name: Supprimer les métadonnées des fichiers publiés
+        run: |
+          find site -type f \( \
+              -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.gif' \
+              -o -iname '*.webp' -o -iname '*.tif' -o -iname '*.tiff' -o -iname '*.bmp' \
+              -o -iname '*.pdf' -o -iname '*.epub' \
+              -o -iname '*.docx' -o -iname '*.xlsx' -o -iname '*.pptx' \
+              -o -iname '*.odt' -o -iname '*.ods' -o -iname '*.odp' -o -iname '*.odg' \
+              -o -iname '*.mp3' -o -iname '*.flac' -o -iname '*.ogg' -o -iname '*.wav' \
+              -o -iname '*.mp4' -o -iname '*.avi' \
+            \) -print0 | xargs -0 -r mat2 --inplace --lightweight
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
