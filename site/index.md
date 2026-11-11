@@ -13,7 +13,7 @@ layout: default
 
 ## Qui sommes-nous ?
 
-Nous sommes un collectif **apolitique** et **non violent**. Notre seul objectif : **l'intérêt des élèves**.
+Nous sommes un collectif composé **exclusivement de parents d'élèves du lycée Fénelon**, de la seconde aux classes préparatoires. Nous sommes **apolitiques** et **non violents**. Notre seul objectif : **l'intérêt des élèves**.
 
 **Nous entendons les lycéens.** Leurs revendications sont légitimes : nous les comprenons et les partageons. Nous sommes convaincus de la sincérité des lycéennes et des lycéens mobilisés, et prêts à nous engager avec eux pour obtenir de vrais changements.
 
