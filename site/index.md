@@ -2,11 +2,26 @@
 layout: default
 ---
 
-# Ressources communautaires
+# Ressources communautaires freefenelon
 
-Ressources libres, à copier, modifier et partager sans restriction.
+## Qui sommes-nous ?
+
+Nous sommes un collectif **apolitique** et **non violent**. Notre seul objectif : **l'intérêt des élèves**.
+
+**Nous entendons les lycéens.** Leurs revendications sont légitimes : nous les comprenons et les partageons. Nous sommes convaincus de la sincérité des lycéennes et des lycéens mobilisés, et prêts à nous engager avec eux pour obtenir de vrais changements.
+
+**Mais nous sommes opposés aux blocus**, parce qu'ils :
+
+- sont **illégaux** ;
+- sont **injustes** : ils imposent à tous le choix de quelques-uns ;
+- privent chaque élève d'une **liberté fondamentale**, celle d'aller en cours ;
+- **creusent les inégalités sociales** : les élèves les plus fragiles sont ceux qui [rattrapent le moins les cours perdus](heures-de-cours-perdues.html).
+
+Le blocus est contre-productif : il pénalise les élèves qu'il prétend défendre et dessert des revendications pourtant justes.
 
 ## Ressources
+
+Ressources libres, à copier, modifier et partager sans restriction.
 
 - [Pétition freefenelon](https://www.change.org/freefenelon) : Mettre fin aux blocus au lycée Fénelon Paris  
   <span class="copie"><code id="url-petition">https://www.change.org/freefenelon</code> <button type="button" data-copie="url-petition">Copier le lien</button></span>
