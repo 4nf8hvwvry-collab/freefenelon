@@ -19,6 +19,9 @@
     th, td { text-align: left; padding: .25rem 1rem .25rem 0; border-bottom: 1px solid var(--discret); }
     blockquote { margin-left: 0; padding-left: 1rem; border-left: 3px solid var(--discret); }
     footer { margin-top: 3rem; font-size: .9rem; color: var(--discret); }
+    .copie code { user-select: all; -webkit-user-select: all; font-size: 1.05em; padding: .15rem .4rem;
+                  border: 1px solid var(--discret); border-radius: 4px; }
+    .copie button { font: inherit; font-size: .9rem; padding: .15rem .6rem; cursor: pointer; }
   </style>
 </head>
 <body>
@@ -35,5 +38,20 @@
       Aucune autorisation ni attribution requise.</p>
 {% endif %}
   </footer>
+  <script>
+    document.addEventListener('click', function (e) {
+      var b = e.target.closest('button[data-copie]');
+      if (!b) return;
+      var texte = document.getElementById(b.dataset.copie).textContent.trim();
+      var libelle = b.textContent;
+      function fait() { b.textContent = 'Copié ✓'; setTimeout(function () { b.textContent = libelle; }, 1500); }
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(texte).then(fait);
+      } else {
+        var t = document.createElement('textarea'); t.value = texte; document.body.appendChild(t);
+        t.select(); document.execCommand('copy'); t.remove(); fait();
+      }
+    });
+  </script>
 </body>
 </html>
