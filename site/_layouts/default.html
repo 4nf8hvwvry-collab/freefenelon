@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta name="referrer" content="no-referrer">
-  <title>Ressources communautaires</title>
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <style>
     :root { --fond: #fdfdfc; --texte: #1d1d1b; --lien: #0b57a4; --discret: #5f5f5a; }
     @media (prefers-color-scheme: dark) {
@@ -18,16 +18,8 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Ressources communautaires</h1>
-    <p>Ressources libres, à copier, modifier et partager sans restriction.</p>
-  </header>
-
   <main>
-    <h2>Ressources</h2>
-    <ul>
-      <li><a href="#">Première ressource</a> : description courte.</li>
-    </ul>
+{{ content }}
   </main>
 
   <footer>

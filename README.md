@@ -8,8 +8,10 @@ Tout le contenu de ce dépôt est placé dans le **domaine public** via [CC0 1.0
 
 ```
 .
-├── site/                    Contenu publié (HTML, CSS, fichiers téléchargeables)
-│   └── index.html
+├── site/                    Contenu publié
+│   ├── index.md             Page d'accueil, en Markdown
+│   ├── _layouts/default.html  Gabarit HTML (en-tête, style, pied de page)
+│   └── _config.yml          Réglages Jekyll
 ├── .github/workflows/       Publication automatique sur GitHub Pages
 ├── .githooks/               Contrôles locaux avant commit
 ├── LICENSE                  Texte officiel CC0 1.0
@@ -23,7 +25,8 @@ Seul le dossier `site/` est publié. Le reste du dépôt n'est pas visible en li
 Chaque push sur `main` déclenche le workflow `.github/workflows/pages.yml`, qui :
 
 1. supprime les métadonnées des fichiers publiés (images, PDF, documents bureautiques) avec `mat2` ;
-2. publie le contenu de `site/` sur GitHub Pages.
+2. convertit les pages Markdown de `site/` en HTML avec Jekyll ;
+3. publie le résultat sur GitHub Pages.
 
 Prérequis côté dépôt : **Settings > Pages > Source : GitHub Actions**, puis **Enforce HTTPS**.
 
@@ -56,7 +59,7 @@ TZ=UTC git commit -m "message"
 
 1. Déposer le fichier dans `site/` (ou un sous-dossier).
 2. Nettoyer les métadonnées : `mat2 --inplace --lightweight site/chemin/fichier`.
-3. Ajouter le lien dans `site/index.html`.
+3. Ajouter le lien dans `site/index.md`, par exemple `- [Titre](chemin/fichier.pdf) : description.`
 4. Committer et pousser.
 
 Les contributions doivent être compatibles avec CC0 : ne déposez que des contenus dont vous êtes l'auteur ou qui sont déjà dans le domaine public.
