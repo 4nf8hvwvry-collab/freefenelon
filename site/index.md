@@ -12,6 +12,9 @@ Ressources libres, à copier, modifier et partager sans restriction.
   <span class="copie"><code id="url-petition">https://www.change.org/freefenelon</code> <button type="button" data-copie="url-petition">Copier le lien</button></span>
 - [Pourquoi il ne faut pas relativiser les heures de cours perdues](heures-de-cours-perdues.html) : selon une méta-analyse de 42 études (Nature Human Behaviour, 2023), les fermetures liées au Covid ont coûté un tiers d'année d'apprentissage, jamais rattrapé, surtout aux élèves défavorisés.
 - [Lettre de huit maires d'arrondissement à la rectrice (10/11/2026)](lettre-maires-rectrice-2026-11-10.html) : les maires des 5e, 6e, 7e, 8e, 9e, 15e, 16e et 17e demandent des arrêtés périmétriques aux abords des lycées bloqués, des interclasses à l'intérieur des établissements et la présence de médiateurs de la Police municipale.
+- [Non au harcèlement](https://www.education.gouv.fr/non-au-harcelement) : la plateforme officielle du ministère de l'Éducation nationale contre le harcèlement et le cyberharcèlement à l'école. Elle explique comment repérer une situation, à qui s'adresser dans l'établissement et quelles démarches suivre, avec une rubrique dédiée aux parents : [Mon enfant est victime de harcèlement](https://www.education.gouv.fr/non-au-harcelement/mon-enfant-est-victime-de-harcelement-323014).
+  - **Appeler le [3018](tel:3018)** : numéro national unique, gratuit, anonyme et confidentiel, 7 jours sur 7 de 9 h à 23 h. Il est aussi joignable par tchat sur [3018.fr](https://www.3018.fr), sur WhatsApp, Messenger et via l'application 3018. Élèves, parents et témoins peuvent appeler.
+  - En cas de danger immédiat : **17** (police) ou **112**.
 
 ## Message à partager dans un groupe de classe
 
