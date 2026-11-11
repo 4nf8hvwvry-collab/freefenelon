@@ -23,9 +23,13 @@
   </main>
 
   <footer>
+{% if page.reproduction %}
+    <p>Document reproduit tel quel. Il reste la propriété de ses auteurs et n'est pas couvert par la licence CC0 du site.</p>
+{% else %}
     <p>Contenu placé dans le domaine public
       (<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.fr" rel="license">CC0 1.0</a>).
       Aucune autorisation ni attribution requise.</p>
+{% endif %}
   </footer>
 </body>
 </html>
