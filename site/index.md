@@ -22,7 +22,7 @@ Nous sommes un collectif composé **exclusivement de parents d'élèves du lycé
 - sont **illégaux** ;
 - sont **injustes** : ils imposent à tous le choix de quelques-uns ;
 - privent chaque élève d'une **liberté fondamentale**, celle d'aller en cours ;
-- **creusent les inégalités sociales** : les élèves les plus fragiles sont ceux qui [rattrapent le moins les cours perdus](heures-de-cours-perdues.html).
+- **creusent les inégalités sociales** : les élèves les plus fragiles sont ceux qui [rattrapent le moins les cours perdus](heures-de-cours-perdues.html) ;
 - sont **dangereux pour tout le monde** : ce sont des lieux d'affrontement où une maladresse ou un geste mal maîtrisé peut vite dégénérer, pour les personnels du lycée, les élèves qui bloquent comme ceux qui veulent entrer, les parents, les passants et les forces de l'ordre.
 
 Le blocus est contre-productif : il pénalise les élèves qu'il prétend défendre et dessert des revendications pourtant justes.
