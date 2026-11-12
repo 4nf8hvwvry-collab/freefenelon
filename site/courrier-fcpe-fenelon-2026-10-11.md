@@ -88,4 +88,4 @@ Et quelques liens FCPE sur la mobilisation :
 - [www.fcpe.asso.fr/conseils-aux-parents/mouvement-lyceen-conseils-et-reperes](https://www.fcpe.asso.fr/conseils-aux-parents/mouvement-lyceen-conseils-et-reperes)
 - [www.fcpe75.org/mobilisations-lyceennes-ecouter-les-jeunes-proteger-leur-securite-et-apporter-des-reponses-concretes](https://www.fcpe75.org/mobilisations-lyceennes-ecouter-les-jeunes-proteger-leur-securite-et-apporter-des-reponses-concretes)
 - [www.fcpe.asso.fr/conseils-aux-parents/manifestations-blocage-des-etablissements-scolaires-ce-quil-faut-savoir](https://www.fcpe.asso.fr/conseils-aux-parents/manifestations-blocage-des-etablissements-scolaires-ce-quil-faut-savoir)
-- [Dossier de presse FCPE IDF (PDF)](https://www.fcpe.asso.fr/sites/default/files/CDPEmobilisationLyceenne/Dossier%20de%20presse%20FCPE%20IDF%202006102026-3.pdf)
+- [Dossier de presse FCPE IDF (PDF)](https://www.fcpe.asso.fr/sites/default/files/CDPEmobilisationLyceenne/Dossier%20de%20presse%20FCPE%20IDF%2006102026-3.pdf)
