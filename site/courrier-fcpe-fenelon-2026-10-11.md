@@ -12,7 +12,7 @@ reproduction: true
 
 Le **11 octobre 2026**, les représentants de parents élus au conseil d'administration pour la **FCPE Fénelon** ont adressé ce courrier aux parents du lycée, au début des blocus.
 
-La FCPE, souvent perçue comme proche des mouvements lycéens, y prend une position nette :
+Dans ce courrier, la FCPE Fénelon prend une position nette :
 
 - elle **soutient l'équipe de direction** et rappelle que la sécurité des élèves et des personnels est essentielle ;
 - elle affirme avec force que **manifester est un droit**, et encourage les jeunes à s'informer, débattre et s'engager ;
