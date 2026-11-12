@@ -77,7 +77,7 @@ La configuration particulière du lycée appelle une attention spécifique : ses
 
 Au-delà du blocage, plusieurs élèves subissent intimidations, bousculades et insultes (« fachos », « lâcheurs ») lorsqu'ils tentent de rentrer, tandis que d'autres se trouvent pris dans un conflit de loyauté face à la pression du groupe.
 
-Les familles demandant la levée du blocus disposent de peu de relais collectifs : la FCPE locale n’a pas accepté de diffuser notre pétition en faveur de la reprise des cours, tandis que la direction ne peut la relayer en raison de son obligation de neutralité.
+Les familles demandant la levée du blocus disposent de peu de relais collectifs : la direction ne peut relayer notre pétition en faveur de la reprise des cours en raison de son obligation de neutralité.
 
 Cette situation pénalise particulièrement les élèves boursiers et ceux qui rencontrent des difficultés scolaires, et risque d’accentuer les inégalités.
 
