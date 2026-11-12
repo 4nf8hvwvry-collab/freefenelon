@@ -6,6 +6,7 @@ layout: default
 
 <nav class="acces-rapide" aria-label="Accès rapide">
   <a href="https://www.change.org/freefenelon">Signer la pétition</a>
+  <a href="modeles-courriers.html">Modèles de courriers</a>
   <a href="#message">Message à partager</a>
   <a href="#ressources">Ressources</a>
   <a href="#harcelement">Harcèlement : 3018</a>
@@ -38,6 +39,7 @@ Ressources libres, à copier, modifier et partager sans restriction.
 - [Lycée Fénelon : courrier de la FCPE sur les blocus (11/10/2026)](courrier-fcpe-fenelon-2026-10-11.html) : les élus FCPE de Fénelon rappellent que manifester est un droit, mais que le blocus n'est pas une forme d'expression légitime : il entrave la liberté d'aller en cours, expose les élèves à des sanctions et peut devenir dangereux.
 - [Lycée Chaptal : déclaration commune FCPE et PEEP (08/11/2026)](declaration-fcpe-peep-chaptal-2026-11-08.html) : les deux associations de parents d'élèves de Chaptal appellent ensemble chacun à la raison et demandent que chaque élève puisse exercer librement son droit à l'éducation, sans pressions ni menaces, tout en reconnaissant la légitimité des revendications lycéennes.
 - [Lettre de huit maires d'arrondissement à la rectrice (10/11/2026)](lettre-maires-rectrice-2026-11-10.html) : les maires des 5e, 6e, 7e, 8e, 9e, 15e, 16e et 17e demandent des arrêtés périmétriques aux abords des lycées bloqués, des interclasses à l'intérieur des établissements et la présence de médiateurs de la Police municipale.
+- [Lettre de Michel Barnier au ministre de l'Intérieur (06/11/2026)](lettre-barnier-ministre-interieur-2026-11-06.html) : le député de Paris et ancien Premier ministre demande à Laurent Nuñez de rétablir au plus vite, dans le respect des règles, l'accès aux établissements bloqués de sa circonscription, rappelant que l'enseignement à distance creuse les inégalités et que ce sont les élèves qui veulent travailler qui paient le prix du blocage.
 - {:#harcelement} [Non au harcèlement](https://www.education.gouv.fr/non-au-harcelement) : la plateforme officielle du ministère de l'Éducation nationale contre le harcèlement et le cyberharcèlement à l'école. Elle explique comment repérer une situation, à qui s'adresser dans l'établissement et quelles démarches suivre, avec une rubrique dédiée aux parents : [Mon enfant est victime de harcèlement](https://www.education.gouv.fr/non-au-harcelement/mon-enfant-est-victime-de-harcelement-323014).
   - **Appeler le [3018](tel:3018)** : numéro national unique, gratuit, anonyme et confidentiel, 7 jours sur 7 de 9 h à 23 h. Il est aussi joignable par tchat sur [3018.fr](https://www.3018.fr), sur WhatsApp, Messenger et via l'application 3018. Élèves, parents et témoins peuvent appeler.
   - En cas de danger immédiat : **17** (police) ou **112**.
