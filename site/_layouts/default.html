@@ -27,6 +27,7 @@
                       text-decoration: none; font-size: .95rem; }
     .acces-rapide a:first-child { background: var(--lien); color: var(--fond); }
     html { scroll-behavior: smooth; }
+    .modele { padding: .25rem 1.25rem; border: 1px solid var(--discret); border-radius: 6px; }
   </style>
 </head>
 <body>
@@ -47,7 +48,7 @@
     document.addEventListener('click', function (e) {
       var b = e.target.closest('button[data-copie]');
       if (!b) return;
-      var texte = document.getElementById(b.dataset.copie).textContent.trim();
+      var texte = document.getElementById(b.dataset.copie).innerText.trim();
       var libelle = b.textContent;
       function fait() { b.textContent = 'Copié ✓'; setTimeout(function () { b.textContent = libelle; }, 1500); }
       if (navigator.clipboard && window.isSecureContext) {
