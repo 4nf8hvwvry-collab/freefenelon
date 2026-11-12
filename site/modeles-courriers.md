@@ -29,7 +29,7 @@ Préfecture de police de Paris
 
 Paris, le [date]
 
-**Objet : Lycée Fénelon – Demande d’attention particulière et de présence policière le matin**
+**Objet : Lycée Fénelon – Demande d’attention particulière et d’une présence policière rassurante le matin**
 
 Monsieur le Préfet,
 
@@ -42,6 +42,8 @@ Nous souhaitons néanmoins souligner la configuration très particulière du lyc
 Le proviseur sollicite les services de police chaque matin, mais il arrive que les interventions ne puissent avoir lieu que dans l’après-midi. Or, c’est précisément dès le début de la journée que les blocages se mettent en place et que les élèves sont empêchés de rejoindre leurs cours.
 
 C’est pourquoi nous souhaiterions qu’une attention particulière puisse être portée à Fénelon et qu’une présence des forces de police puisse être envisagée dès le matin, aux horaires d’arrivée des élèves, afin de prévenir les blocages plutôt que d’intervenir plusieurs heures après leur mise en place.
+
+Nous souhaitons une présence rassurante et pacifique : une présence visible et préventive, dans un esprit d’apaisement, qui permette à chacun d’entrer en cours en sécurité, sans confrontation avec les élèves mobilisés.
 
 Nous vous remercions sincèrement de l’attention que vous voudrez bien porter à cette situation et des dispositions qui pourraient être envisagées avec les services compétents.
 
@@ -84,7 +86,7 @@ Cette situation pénalise particulièrement les élèves boursiers et ceux qui r
 Sans remettre en cause le droit de manifester, nous demandons au rectorat :
 
 – de faire rétablir sans délai l’accès aux deux bâtiments pour les élèves et les personnels ;  
-– de mettre en place un dispositif empêchant le blocage des entrées et garantissant la libre circulation ;  
+– de mettre en place un dispositif empêchant le blocage des entrées et garantissant la libre circulation, reposant sur une présence rassurante et pacifique, dans un esprit d’apaisement et sans confrontation avec les élèves ;  
 – de garantir en permanence l’accès aux issues de secours ;  
 – d’informer les familles des mesures décidées et du calendrier de reprise effective des cours ;  
 – de voir s’il serait possible de proposer un accompagnement adapté face au mal-être des élèves affectés par cette situation.
