@@ -6,6 +6,7 @@ layout: default
 
 <nav class="acces-rapide" aria-label="Accès rapide">
   <a href="https://www.change.org/freefenelon">Signer la pétition</a>
+  <a href="#signaler">Signaler un blocage</a>
   <a href="modeles-courriers.html">Modèles de courriers</a>
   <a href="#message">Message à partager</a>
   <a href="#ressources">Ressources</a>
@@ -28,6 +29,24 @@ Nous sommes un collectif composé **exclusivement de parents d'élèves du lycé
 
 Le blocus est contre-productif : il pénalise les élèves qu'il prétend défendre et dessert des revendications pourtant justes.
 
+## Signaler un blocage ou un incident {#signaler}
+
+**[Accéder à la plateforme de signalement](https://tally.so/r/OQXBdY)**
+
+La plateforme sert à recenser, de façon précise et datée, les blocages et incidents devant les établissements de nos enfants : date, heure, nature des faits, cours perdus, photos.
+
+**Pourquoi ?** Le tribunal administratif a suspendu l'[arrêté du préfet de police](arrete-prefet-police-2026-01603.html). L'un des motifs retenus par la juge est le manque d'« éléments circonstanciés et actualisés » sur la situation de chaque établissement : seuls 5 des 15 établissements étaient concernés par des faits précis présentés au dossier.
+
+Nos relevés permettront de transmettre au chef d'établissement, au rectorat et à la préfecture une synthèse factuelle par établissement : combien de jours de blocage, combien d'heures de cours perdues, quels incidents.
+
+Quelques règles :
+
+- décrivez **uniquement ce que vous avez constaté vous-même** ;
+- **ne photographiez pas les visages**, mais l'entrée bloquée, les obstacles, les dégradations ;
+- les données sont consultées par un petit nombre de personnes et **ne sont jamais publiées**.
+
+Pour un fait grave (violence, menace), la plateforme ne remplace pas une plainte : adressez-vous directement à la police (**17** en cas d'urgence).
+
 ## Ressources {#ressources}
 
 Ressources libres, à copier, modifier et partager sans restriction.
@@ -35,7 +54,7 @@ Ressources libres, à copier, modifier et partager sans restriction.
 - [Pétition freefenelon](https://www.change.org/freefenelon) : Mettre fin aux blocus au lycée Fénelon Paris  
   <span class="copie"><code id="url-petition">https://www.change.org/freefenelon</code> <button type="button" data-copie="url-petition">Copier le lien</button></span>
 - [Modèles de courriers au préfet de police et à la rectrice](modeles-courriers.html) : deux lettres prêtes à copier, personnaliser et envoyer pour demander une présence policière rassurante et pacifique dès l'arrivée des élèves et le rétablissement durable de l'accès au lycée.
-- [Arrêté du préfet de police : périmètre de 100 m autour de Fénelon du 16 au 20 novembre](arrete-prefet-police-2026-01603.html) : tout rassemblement non déclaré est interdit à moins de 100 m de Fénelon et de 14 autres lycées et universités parisiens pendant cette semaine ; résumé, raisons invoquées, sanctions et texte officiel.
+- [Arrêté du préfet de police : périmètre de 100 m autour de Fénelon du 16 au 20 novembre](arrete-prefet-police-2026-01603.html) : tout rassemblement non déclaré est interdit à moins de 100 m de Fénelon et de 14 autres lycées et universités parisiens pendant cette semaine ; résumé, raisons invoquées, sanctions et texte officiel. **L'arrêté a depuis été suspendu par le tribunal administratif.**
 - [Pourquoi il ne faut pas relativiser les heures de cours perdues](heures-de-cours-perdues.html) : selon une méta-analyse de 42 études (Nature Human Behaviour, 2023), les fermetures liées au Covid ont coûté un tiers d'année d'apprentissage, jamais rattrapé, surtout aux élèves défavorisés.
 - [Lycée Fénelon : courrier de la FCPE sur les blocus (11/10/2026)](courrier-fcpe-fenelon-2026-10-11.html) : les élus FCPE de Fénelon rappellent que manifester est un droit, mais que le blocus n'est pas une forme d'expression légitime : il entrave la liberté d'aller en cours, expose les élèves à des sanctions et peut devenir dangereux.
 - [Lycée Chaptal : déclaration commune FCPE et PEEP (08/11/2026)](declaration-fcpe-peep-chaptal-2026-11-08.html) : les deux associations de parents d'élèves de Chaptal appellent ensemble chacun à la raison et demandent que chaque élève puisse exercer librement son droit à l'éducation, sans pressions ni menaces, tout en reconnaissant la légitimité des revendications lycéennes.

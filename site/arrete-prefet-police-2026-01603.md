@@ -9,6 +9,8 @@ title: "Arrêté du préfet de police : périmètre de 100 m autour des lycées 
 
 **Arrêté n° 2026-01603 du préfet de police**, signé le 13 novembre 2026 par Baptiste Rolland, préfet, directeur de cabinet. Le lycée **Fénelon** fait partie des établissements concernés.
 
+> **Mise à jour : l'arrêté a été suspendu par le tribunal administratif.** L'un des motifs retenus par la juge est le manque d'« éléments circonstanciés et actualisés » sur la situation de chaque établissement. Pour aider à documenter les faits, [signalez les blocages et incidents constatés](./#signaler).
+
 [Télécharger l'arrêté (PDF, 6 pages)](documents/arrete-prefet-police-2026-01603.pdf)
 
 ## Ce qu'il interdit
@@ -46,7 +48,7 @@ L'arrêté rappelle enfin le droit des élèves à suivre leurs cours :
 
 ## Bon à savoir
 
-L'interdiction vaut pour **tout rassemblement non déclaré, quel qu'en soit l'objet** : elle s'applique aussi aux parents. Pendant cette période, mieux vaut éviter de se regrouper devant le lycée.
+Tant qu'il était en vigueur, l'interdiction valait pour **tout rassemblement non déclaré, quel qu'en soit l'objet**, y compris pour les parents.
 
 ## Recours
 
