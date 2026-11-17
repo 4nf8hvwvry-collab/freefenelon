@@ -9,7 +9,7 @@ title: "Arrêté du préfet de police : périmètre de 100 m autour des lycées 
 
 **Arrêté n° 2026-01603 du préfet de police**, signé le 13 novembre 2026 par Baptiste Rolland, préfet, directeur de cabinet. Le lycée **Fénelon** fait partie des établissements concernés.
 
-> **Mise à jour : l'arrêté a été suspendu par le tribunal administratif.** L'un des motifs retenus par la juge est le manque d'« éléments circonstanciés et actualisés » sur la situation de chaque établissement. Pour aider à documenter les faits, [signalez les blocages et incidents constatés](./#signaler).
+> **Mise à jour : l'arrêté a été suspendu par le tribunal administratif le 17 novembre 2026.** L'un des motifs retenus par la juge est le manque d'« éléments circonstanciés et actualisés » sur la situation de chaque établissement. Pour aider à documenter les faits, [signalez les blocages et incidents constatés](./#signaler).
 
 [Télécharger l'arrêté (PDF, 6 pages)](documents/arrete-prefet-police-2026-01603.pdf)
 
