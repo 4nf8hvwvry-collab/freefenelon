@@ -31,7 +31,9 @@ Le blocus est contre-productif : il pénalise les élèves qu'il prétend défen
 
 ## Signaler un blocage ou un incident {#signaler}
 
-**[Accéder à la plateforme de signalement](https://tally.so/r/OQXBdY)**
+**[Accéder à la plateforme de signalement](https://tinyurl.com/signaler-blocage)**
+
+<p class="copie"><code id="url-signalement">https://tinyurl.com/signaler-blocage</code> <button type="button" data-copie="url-signalement">Copier le lien</button></p>
 
 La plateforme sert à recenser, de façon précise et datée, les blocages et incidents devant les établissements de nos enfants : date, heure, nature des faits, cours perdus, photos.
 
