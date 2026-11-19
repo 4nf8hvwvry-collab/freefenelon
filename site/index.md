@@ -21,7 +21,7 @@ Nous sommes un collectif composé **exclusivement de parents d'élèves du lycé
 
 **Mais nous sommes opposés aux blocus**, parce qu'ils :
 
-- sont **illégaux** ;
+- sont **illégaux** au regard du code de l'éducation : ils méconnaissent l'obligation d'assiduité des élèves et portent atteinte aux activités d'enseignement, que la liberté d'expression des lycéens ne doit pas entraver (articles L. 511-1 et L. 511-2). Ce n'est pas en soi une infraction pénale, mais une faute disciplinaire, qui peut aller jusqu'à l'exclusion ([analyse juridique](https://www.echoavocats.com/post/blocus-lyc%C3%A9ens-quelles-sanctions-disciplinaires-et-quels-recours)) ;
 - sont **injustes** : ils imposent à tous le choix de quelques-uns ;
 - privent chaque élève d'une **liberté fondamentale**, celle d'aller en cours ;
 - **creusent les inégalités sociales** : les élèves les plus fragiles sont ceux qui [rattrapent le moins les cours perdus](heures-de-cours-perdues.html) ;
