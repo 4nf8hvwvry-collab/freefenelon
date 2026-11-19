@@ -23,7 +23,7 @@ Nous sommes un collectif composé **exclusivement de parents d'élèves du lycé
 
 - sont **illégaux** au regard du code de l'éducation : ils méconnaissent l'obligation d'assiduité des élèves et portent atteinte aux activités d'enseignement, que la liberté d'expression des lycéens ne doit pas entraver (articles L. 511-1 et L. 511-2). Ce n'est pas en soi une infraction pénale, mais une faute disciplinaire, qui peut aller jusqu'à l'exclusion ([analyse juridique](https://www.echoavocats.com/post/blocus-lyc%C3%A9ens-quelles-sanctions-disciplinaires-et-quels-recours)) ;
 - sont **injustes** : ils imposent à tous le choix de quelques-uns ;
-- privent chaque élève d'une **liberté fondamentale**, celle d'aller en cours ;
+- portent atteinte au **droit à l'éducation**, garanti à chacun par le code de l'éducation (article L. 111-1), et à la **liberté fondamentale** de chaque élève d'aller en cours ;
 - **creusent les inégalités sociales** : les élèves les plus fragiles sont ceux qui [rattrapent le moins les cours perdus](heures-de-cours-perdues.html) ;
 - sont **dangereux pour tout le monde** : ce sont des lieux d'affrontement où une maladresse ou un geste mal maîtrisé peut vite dégénérer, pour les personnels du lycée, les élèves qui bloquent comme ceux qui veulent entrer, les parents, les passants et les forces de l'ordre.
 
