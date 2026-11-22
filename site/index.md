@@ -4,6 +4,8 @@ layout: default
 
 # Ressources communautaires freefenelon
 
+Ce site est né au lycée Fénelon, mais ses ressources **ne se limitent pas à Fénelon** : modèles de courriers, textes de référence, arguments juridiques et aides pour les élèves peuvent servir **dans tous les lycées**. Reprenez-les librement et adaptez-les à votre établissement pour défendre le **droit à l'éducation** de chaque élève.
+
 <nav class="acces-rapide" aria-label="Accès rapide">
   <a href="https://www.change.org/freefenelon">Signer la pétition</a>
   <a href="#signaler">Signaler un blocage</a>
