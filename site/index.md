@@ -13,6 +13,7 @@ Ce site est né au lycée Fénelon, mais ses ressources **ne se limitent pas à 
   <a href="#message">Message à partager</a>
   <a href="#ressources">Ressources</a>
   <a href="#harcelement">Harcèlement : 3018</a>
+  <a href="#contact">Contact</a>
 </nav>
 
 ## Qui sommes-nous ?
@@ -79,3 +80,9 @@ Pour inviter les parents d'un groupe de classe à demander en message privé le 
 Lien à envoyer en message privé à ceux qui le demandent :
 
 <p class="copie"><code id="url-petition-mp">https://www.change.org/freefenelon</code> <button type="button" data-copie="url-petition-mp">Copier le lien</button></p>
+
+## Contact {#contact}
+
+Une question, une demande, une suggestion, une ressource à partager ? Écrivez-nous :
+
+<p class="copie"><a href="mailto:mathiasharcourtfeneleon@gmail.com"><code id="email-contact">mathiasharcourtfeneleon@gmail.com</code></a> <button type="button" data-copie="email-contact">Copier l'adresse</button></p>
