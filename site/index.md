@@ -86,3 +86,5 @@ Lien à envoyer en message privé à ceux qui le demandent :
 Une question, une demande, une suggestion, une ressource à partager ? Écrivez-nous :
 
 <p class="copie"><a href="mailto:mathiasharcourtfeneleon@gmail.com"><code id="email-contact">mathiasharcourtfeneleon@gmail.com</code></a> <button type="button" data-copie="email-contact">Copier l'adresse</button></p>
+
+**Attention à l'orthographe :** fen**e**leon, avec un « e » de plus que Fénelon (F.E.N.E.L.E.O.N). Le plus sûr est d'utiliser le bouton « Copier l'adresse ».
