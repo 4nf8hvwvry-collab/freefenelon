@@ -31,6 +31,16 @@ Le rapport le précise lui-même : **il ne s'agit pas d'une évaluation de l'ins
 
 **Des personnels à bout.** Plusieurs membres du personnel ont été blessés. Les proviseurs se disent « usés », « à la limite de la rupture ». Ils sont insultés, menacés sur les réseaux sociaux, et pris en étau entre des attentes contradictoires. Le rapport décrit aussi des équipes enseignantes divisées et des parents partagés.
 
+## Les facteurs qui entretiennent les blocages
+
+Selon les proviseurs interrogés, plusieurs facteurs se combinent :
+
+- dans certains lycées, **des élèves très politisés**, souvent de bon niveau scolaire, ont rapidement donné une dimension politique au mouvement ;
+- **une minorité de personnels** a soutenu le mouvement, par exemple en ne notant pas les absences, ce qui a créé des tensions dans les salles des professeurs ;
+- **les parents sont divisés** : certains soutiennent le mouvement, d'autres souhaitent l'apaisement. Des proviseurs regrettent que certaines familles demandent l'absence de sanction, ce qui affaiblit leur autorité. Le rapport note qu'aujourd'hui, la demande générale est au **retour à un fonctionnement normal** ;
+- **le soutien d'élus et d'organisations politiques ou syndicales** a contribué à l'essor du mouvement. Ce soutien ne vaut pas approbation des violences, et il s'est nettement réduit depuis la radicalisation récente ;
+- **la proximité d'universités et de certains quartiers** amplifie le mouvement, avec des jeunes extérieurs aux lycées qui viennent chercher l'affrontement.
+
 ## Ce que demandent les proviseurs
 
 **Dans l'immédiat :**
