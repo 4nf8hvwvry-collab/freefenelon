@@ -30,6 +30,41 @@
     .note { margin: 0 0 1.25rem; padding: .5rem .9rem; border-left: 3px solid var(--discret);
             color: var(--discret); font-size: .95rem; font-style: italic; }
     .modele { padding: .25rem 1.25rem; border: 1px solid var(--discret); border-radius: 6px; }
+    /* Page de statistiques */
+    .stats-chiffres { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(9.5rem, 100%), 1fr)); gap: .6rem; margin: 1.25rem 0; }
+    .stats-chiffres div { border: 1px solid var(--discret); border-radius: 6px; padding: .5rem .75rem; }
+    .stats-chiffres b { display: block; font-size: 1.6rem; line-height: 1.2; font-variant-numeric: tabular-nums; }
+    .stats-chiffres span { font-size: .85rem; color: var(--discret); line-height: 1.35; display: block; }
+    .stats-defile { overflow-x: auto; margin: 1rem 0; }
+    .stats-table { font-size: .92rem; width: 100%; }
+    .stats-table caption { text-align: left; font-size: .9rem; color: var(--discret); padding-bottom: .4rem; }
+    .stats-table th[scope=row] { font-weight: normal; }
+    .stats-table .n { text-align: right; font-variant-numeric: tabular-nums; }
+    .stats-table td.n { white-space: nowrap; }
+    .stats-table th[scope=row] { min-width: 9rem; }
+    .stats-table thead th { font-size: .85rem; vertical-align: bottom; }
+    .stats-total th, .stats-total td { font-weight: 600; }
+    .stats-discret { color: var(--discret); font-size: .9rem; }
+    .stats-piste { display: block; height: .7rem; border-radius: 2px;
+                   background: color-mix(in srgb, var(--discret) 22%, transparent); }
+    .stats-piste > span { display: block; height: 100%; border-radius: 2px; background: var(--lien); }
+    .stats-jours { display: grid; grid-template-columns: minmax(3rem, 1fr) 1.75rem; gap: .5rem; align-items: center; min-width: 6rem; }
+    .stats-v { text-align: right; font-variant-numeric: tabular-nums; }
+    .stats-barres { display: grid; grid-template-columns: max-content 1fr 2rem; gap: .35rem .75rem; align-items: center; margin: 1rem 0; }
+    .stats-histo { display: flex; align-items: stretch; gap: .35rem; height: 12rem; margin: 1rem 0 .5rem;
+                   background: linear-gradient(var(--discret), var(--discret)) left bottom 1.4rem / 100% 1px no-repeat; }
+    .stats-col { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; position: relative;
+                 padding-bottom: calc(1.4rem + 1px); }
+    .stats-colb { display: block; width: 100%; max-width: 2.5rem; background: var(--lien); border-radius: 3px 3px 0 0; }
+    .stats-colv { font-size: .8rem; font-variant-numeric: tabular-nums; }
+    .stats-coll { position: absolute; bottom: 0; font-size: .72rem; color: var(--discret); white-space: nowrap; }
+    .stats-vac .stats-colb { background: repeating-linear-gradient(135deg, transparent 0 4px,
+                             color-mix(in srgb, var(--discret) 30%, transparent) 4px 6px); }
+    .stats-vac .stats-colv { color: var(--discret); }
+    .stats-table th, .stats-table td { padding-right: .6rem; }
+    @media (max-width: 34rem) { .stats-table { font-size: .82rem; } .stats-table th[scope=row] { min-width: 6.5rem; }
+                                .stats-jours { grid-template-columns: minmax(2rem, 1fr) 1.5rem; min-width: 4rem; } }
+    @media (max-width: 30rem) { .stats-barres { grid-template-columns: minmax(0, max-content) 1fr 2rem; font-size: .9rem; } }
   </style>
 </head>
 <body>

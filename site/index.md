@@ -52,6 +52,8 @@ Quelques règles :
 - **ne photographiez pas les visages**, mais l'entrée bloquée, les obstacles, les dégradations ;
 - les données sont consultées par un petit nombre de personnes et **ne sont jamais publiées**.
 
+Seuls des totaux sont rendus publics, sans aucun signalement individuel : **[les chiffres des signalements](signalements-statistiques.html)** présentent, par établissement, les jours de blocage, les heures de cours perdues déclarées, la nature des incidents et leur évolution semaine après semaine.
+
 Pour un fait grave (violence, menace), la plateforme ne remplace pas une plainte : adressez-vous directement à la police (**17** en cas d'urgence).
 
 ## Ressources {#ressources}
