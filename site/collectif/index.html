@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex">
+  <title>Parents d'élèves pour la reprise des cours · 21 lycées</title>
+  <meta name="description" content="Collectif des parents mobilisés de 21 lycées des académies de Paris et de Créteil. Étudier est un droit, pas un privilège.">
+  <style>
+    :root {
+      --marine: #102f57; --marine-2: #1d4478; --jaune: #f6c21c; --jaune-pale: #fff6d6;
+      --fond: #ffffff; --fond-2: #f4f6fa; --texte: #18202c; --discret: #5b6575; --bord: #dde2ea;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --fond: #0d1726; --fond-2: #132238; --texte: #e8edf4; --discret: #a4afc0; --bord: #263a57;
+              --jaune-pale: #2a2a1a; }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+    body { margin: 0; background: var(--fond); color: var(--texte);
+           font: 1.0625rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    a { color: inherit; }
+    .conteneur { max-width: 64rem; margin: 0 auto; padding: 0 1rem; }
+
+    /* Navigation */
+    .nav { position: sticky; top: 0; z-index: 10; background: var(--marine); color: #fff; }
+    .nav .conteneur { display: flex; align-items: center; gap: 1rem; min-height: 3.75rem; overflow-x: auto; }
+    .nav strong { white-space: nowrap; font-weight: 800; letter-spacing: .01em; }
+    .nav ul { display: flex; gap: .25rem; margin: 0 0 0 auto; padding: 0; list-style: none; }
+    .nav a { display: block; padding: .4rem .7rem; border-radius: 999px; text-decoration: none; white-space: nowrap; font-size: .95rem; }
+    .nav a:hover { background: var(--marine-2); }
+    .nav a.cta { background: var(--jaune); color: var(--marine); font-weight: 700; }
+
+    /* Accueil */
+    .hero { background: linear-gradient(180deg, var(--fond-2), var(--fond)); padding: 2.5rem 0 3rem; text-align: center; }
+    .hero img { width: min(26rem, 100%); height: auto; border-radius: 1rem; background: #fff; }
+    .hero h1 { font-size: clamp(1.9rem, 5vw, 3rem); line-height: 1.15; margin: 1.5rem 0 .75rem; font-weight: 900; color: var(--marine); }
+    @media (prefers-color-scheme: dark) { .hero h1, h2 { color: #fff; } }
+    .hero p.accroche { max-width: 40rem; margin: 0 auto; font-size: 1.15rem; color: var(--discret); }
+    .bouton { display: inline-block; margin-top: 1.5rem; padding: .85rem 1.6rem; border-radius: 999px; background: var(--jaune);
+              color: var(--marine); font-weight: 800; text-decoration: none; font-size: 1.1rem; box-shadow: 0 2px 0 rgba(0,0,0,.15); }
+    .bouton:hover { filter: brightness(1.05); }
+    .bouton.secondaire { background: transparent; color: inherit; border: 2px solid currentColor; box-shadow: none; margin-left: .5rem; }
+    .chiffres { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 40rem; margin: 2.25rem auto 0; }
+    .chiffres div { background: var(--fond); border: 1px solid var(--bord); border-radius: .75rem; padding: 1rem .5rem; }
+    .chiffres b { display: block; font-size: clamp(1.5rem, 4vw, 2.1rem); font-weight: 900; color: var(--marine); }
+    @media (prefers-color-scheme: dark) { .chiffres b { color: var(--jaune); } }
+    .chiffres span { font-size: .9rem; color: var(--discret); }
+
+    /* Sections */
+    section { padding: 3rem 0; }
+    section:nth-of-type(even) { background: var(--fond-2); }
+    h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); color: var(--marine); margin: 0 0 1.25rem; font-weight: 900; }
+    h2::after { content: ""; display: block; width: 3rem; height: .3rem; margin-top: .5rem; background: var(--jaune); border-radius: 2px; }
+    h3 { margin: 0 0 .5rem; font-size: 1.1rem; }
+    .grille { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+    .carte { background: var(--fond); border: 1px solid var(--bord); border-radius: .75rem; padding: 1.1rem 1.2rem; }
+    .carte p { margin: 0; color: var(--discret); }
+    .carte ul { margin: 0; padding-left: 1.1rem; }
+    .carte li + li { margin-top: .3rem; }
+    .lycees { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; list-style: none; }
+    .lycees li { padding: .35rem .8rem; border-radius: 999px; background: var(--fond); border: 1px solid var(--bord); font-size: .95rem; }
+    .deux-col { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); }
+    .defend { border-top: .35rem solid var(--marine); }
+    .refuse { border-top: .35rem solid var(--jaune); }
+    .manifeste { background: var(--marine); color: #fff; border-radius: 1rem; padding: 1.75rem 1.5rem; }
+    .manifeste h3 { font-size: 1.4rem; color: var(--jaune); }
+    .manifeste p { margin: .75rem 0 0; }
+    .chrono { list-style: none; padding: 0; margin: 0; border-left: 3px solid var(--jaune); }
+    .chrono li { position: relative; padding: 0 0 1rem 1.25rem; }
+    .chrono li::before { content: ""; position: absolute; left: -.5rem; top: .45rem; width: .7rem; height: .7rem; border-radius: 50%; background: var(--marine); border: 2px solid var(--jaune); }
+    .a-completer { background: var(--jaune-pale); border: 1px dashed var(--jaune); border-radius: .5rem; padding: .15rem .45rem; font-size: .9em; }
+    .rejoindre { text-align: center; }
+    footer { background: var(--marine); color: #cfd8e6; padding: 2rem 0; font-size: .9rem; }
+    footer a { color: #fff; }
+    @media (max-width: 40rem) {
+      .nav ul { margin-left: 0; }
+      .nav strong { display: none; }
+      .bouton.secondaire { margin: .75rem 0 0; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Navigation principale">
+  <div class="conteneur">
+    <strong>Parents pour la reprise des cours</strong>
+    <ul>
+      <li><a href="#qui">Qui sommes-nous ?</a></li>
+      <li><a href="#revendications">Revendications</a></li>
+      <li><a href="#valeurs">Nos valeurs</a></li>
+      <li><a href="#actions">Nos actions</a></li>
+      <li><a class="cta" href="#rejoindre">Nous rejoindre</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="accueil">
+  <div class="conteneur">
+    <img src="logo.jpg" alt="Parents d'élèves pour la reprise des cours, 21 établissements" width="1536" height="1024">
+    <h1>Étudier est un droit,<br>pas un privilège.</h1>
+    <p class="accroche">Pour le libre accès aux établissements, la fin des blocages et le respect du droit à l'éducation de chaque élève et étudiant. Une mobilisation <strong>indépendante, apolitique et constructive</strong>.</p>
+    <a class="bouton" href="https://www.change.org/p/pour-la-reprise-imm%C3%A9diate-et-durable-des-cours-dans-les-lyc%C3%A9es-parisiens">Signer la pétition</a>
+    <a class="bouton secondaire" href="#revendications">Nos revendications</a>
+    <div class="chiffres">
+      <div><b>21</b><span>lycées</span></div>
+      <div><b>≈ 2 000</b><span>parents</span></div>
+      <div><b>6 000+</b><span>signatures</span></div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="qui">
+  <div class="conteneur">
+    <h2>Qui sommes-nous ?</h2>
+    <p>Nous sommes le <strong>collectif des parents mobilisés de 21 lycées des académies de Paris et de Créteil</strong>. Nous sommes unis autour d'une conviction simple : chaque élève et chaque étudiant doit pouvoir accéder librement à son établissement, recevoir ses enseignements et construire son avenir dans des conditions sereines, sécurisées et équitables.</p>
+    <h3>Les 21 lycées du collectif</h3>
+    <ul class="lycees">
+      <li>Chaptal</li><li>Charlemagne</li><li>Claude Monet</li><li>Colbert</li><li>Fénelon</li>
+      <li>Gabriel Fauré</li><li>Hélène Boucher</li><li>Honoré de Balzac</li><li>Jules Ferry</li><li>Lamartine</li>
+      <li>Maurice Ravel</li><li>Montaigne</li><li>Pierre-Gilles de Gennes</li><li>Racine</li><li>Rodin</li>
+      <li>S&amp;M Serres (Vincennes)</li><li>Simone Weil</li><li>Sophie Germain</li><li>Victor Duruy</li><li>Victor Hugo</li>
+      <li>Voltaire</li>
+    </ul>
+  </div>
+</section>
+
+<section id="revendications">
+  <div class="conteneur">
+    <h2>Les grands axes de la mobilisation</h2>
+    <div class="grille">
+      <div class="carte"><h3>Garantir le droit à l'éducation</h3><p>Permettre à chaque élève et étudiant de bénéficier pleinement de ses enseignements.</p></div>
+      <div class="carte"><h3>Mettre fin aux blocages</h3><p>Garantir durablement le libre accès aux établissements, quels que soient les motifs de mobilisation.</p></div>
+      <div class="carte"><h3>Préserver l'égalité des chances</h3><p>Ne pas pénaliser les jeunes dans leurs apprentissages, examens, orientation et concours.</p></div>
+      <div class="carte"><h3>Protéger les communautés éducatives</h3><p>Garantir un accès sans intimidation, pression, violence ni représailles.</p></div>
+      <div class="carte"><h3>Faire respecter les règles et les libertés</h3><p>Demander aux autorités compétentes d'assumer leurs responsabilités.</p></div>
+      <div class="carte"><h3>Promouvoir le dialogue démocratique</h3><p>Respecter la liberté d'expression et l'engagement citoyen sans entraver la liberté d'étudier.</p></div>
+    </div>
+
+    <h2 style="margin-top:2.5rem">Nos revendications concrètes</h2>
+    <div class="grille">
+      <div class="carte"><h3>Mettre fin aux blocages et garantir le libre accès</h3><ul>
+        <li>Arrêt des blocages empêchant l'accès aux enseignements.</li>
+        <li>Intervention des forces de l'ordre dès les premières heures, dans le respect du cadre légal, et renouvellement si nécessaire.</li>
+        <li>Consignes claires, fermes et harmonisées aux chefs d'établissement.</li>
+        <li>Procédures disciplinaires effectives et proportionnées, avec conseils de discipline délocalisés si nécessaire.</li>
+        <li>Prévention de la répétition des blocages et continuité des enseignements.</li></ul></div>
+      <div class="carte"><h3>Réparer le préjudice pédagogique</h3><ul>
+        <li>Recensement des heures de cours perdues et dispositifs de rattrapage.</li>
+        <li>Prise en compte des conséquences sur les apprentissages.</li>
+        <li>Égalité de traitement au baccalauréat, dans Parcoursup et aux concours des grandes écoles.</li>
+        <li>Accompagnement renforcé des élèves les plus vulnérables.</li></ul></div>
+      <div class="carte"><h3>Garantir la sécurité de tous</h3><ul>
+        <li>Protection des élèves, étudiants et personnels.</li>
+        <li>Lutte contre les intimidations, pressions et représailles.</li>
+        <li>Renforcement des dispositifs d'écoute, de signalement et d'accompagnement.</li>
+        <li>Dispositif spécifique complémentaire au programme pHARe.</li></ul></div>
+      <div class="carte"><h3>Obtenir des engagements institutionnels</h3><ul>
+        <li>Réponse coordonnée des autorités et mesures harmonisées entre académies.</li>
+        <li>Audiences auprès des responsables institutionnels.</li>
+        <li>Engagements concrets, calendrier et suivi effectif des mesures.</li></ul></div>
+    </div>
+
+    <h2 style="margin-top:2.5rem">Les conséquences des blocages</h2>
+    <div class="grille">
+      <div class="carte"><h3>Pédagogiques et scolaires</h3><p>Cours perdus, retards dans les programmes ; préparation aux examens, aux concours et à l'orientation fragilisée.</p></div>
+      <div class="carte"><h3>Psychologiques</h3><p>Stress, anxiété et sentiment d'insécurité.</p></div>
+      <div class="carte"><h3>Sociales et humaines</h3><p>Aggravation des inégalités entre familles ; intimidations, pressions et tensions.</p></div>
+      <div class="carte"><h3>Éducatives et institutionnelles</h3><p>Fragilisation de l'attractivité des établissements, report possible des inscriptions vers le privé, perte de confiance dans les institutions.</p></div>
+      <div class="carte"><h3>Démocratiques</h3><p>Risque de banalisation du rapport de force.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="valeurs">
+  <div class="conteneur">
+    <h2>Nos valeurs</h2>
+    <div class="deux-col">
+      <div class="carte defend"><h3>Nous défendons</h3><p>Le droit à l'éducation, la liberté d'étudier et de s'exprimer, l'égalité des chances, la sécurité de tous, l'engagement citoyen, le dialogue démocratique et le respect de l'État de droit.</p></div>
+      <div class="carte refuse"><h3>Nous refusons</h3><p>Les blocages, la privation d'enseignement, les intimidations, les violences, les pressions et représailles, les ruptures d'égalité, la banalisation du rapport de force et l'absence de solutions durables.</p></div>
+    </div>
+
+    <h3 style="margin-top:2rem">Notre position sur la liberté d'expression</h3>
+    <p>La liberté de s'exprimer et la liberté d'étudier doivent pouvoir coexister. Nous respectons pleinement l'engagement citoyen des jeunes, leur liberté d'expression et leur droit de défendre leurs convictions.</p>
+    <p>Notre mobilisation ne porte pas sur les causes défendues, mais sur les modalités d'action qui empêchent d'autres élèves et étudiants d'accéder à leurs enseignements. Quels que soient les motifs invoqués, aucun élève ne devrait être privé de son droit à l'éducation.</p>
+    <p>Nous refusons d'opposer les jeunes entre eux et souhaitons promouvoir des formes d'expression démocratiques, pacifiques et respectueuses des libertés de chacun. <strong>Notre démarche n'est pas une démarche de confrontation, mais de protection.</strong></p>
+
+    <div class="manifeste" style="margin-top:2rem">
+      <h3>Notre manifeste</h3>
+      <p><strong>Étudier est un droit, pas un privilège.</strong></p>
+      <p>Face aux blocages répétés des lycées, nous nous mobilisons pour garantir le droit à l'éducation, préserver l'égalité des chances et protéger l'ensemble des communautés éducatives.</p>
+      <p>Notre collectif est indépendant, strictement apolitique et respectueux de la liberté d'expression. Nous ne contestons pas le droit de s'exprimer, de débattre ou de s'engager. Nous contestons le fait que l'exercice de ces libertés puisse priver d'autres jeunes de leur droit d'étudier.</p>
+      <p>Nous demandons des réponses concrètes, des mesures durables et le plein exercice des responsabilités de l'État.</p>
+      <p>Nous souhaitons transmettre à nos enfants la confiance dans les institutions, le respect des libertés de chacun et la conviction que le dialogue démocratique permet de se faire entendre.</p>
+      <p>Notre mobilisation dépasse les établissements, les convictions et les différences. Elle repose sur un droit fondamental qui doit être garanti à tous : <strong>le droit à l'éducation.</strong></p>
+    </div>
+  </div>
+</section>
+
+<section id="actions">
+  <div class="conteneur">
+    <h2>Nos actions</h2>
+    <ol class="chrono">
+      <li>Constitution du collectif inter-lycées.</li>
+      <li>Lancement de la pétition.</li>
+      <li>Sollicitation des proviseurs des établissements concernés, pour trouver des solutions garantissant la continuité des enseignements et la sécurité des élèves et des étudiants.</li>
+      <li>Demandes de soutien et d'accompagnement auprès des mairies d'arrondissement et des députés des circonscriptions concernées.</li>
+      <li>Courriers aux autorités rectorales, pour les alerter sur la gravité et la répétition des blocages.</li>
+      <li>Courriers au ministère de l'Éducation nationale, sollicitant des mesures concrètes et une réponse institutionnelle à la hauteur des difficultés.</li>
+      <li>Courriers au Premier ministre, pour appeler l'attention du Gouvernement sur les conséquences de la situation et la nécessité d'une réponse coordonnée de l'État.</li>
+      <li>Recours en référé-liberté devant la juridiction administrative, qui ont fait l'objet de décisions de rejet.</li>
+      <li>Sollicitation du président du Sénat.</li>
+      <li>Rencontres institutionnelles et suivi des réponses et engagements : <span class="a-completer">à documenter selon leur avancement</span></li>
+    </ol>
+
+    <h3 style="margin-top:1.5rem">Chiffres, statistiques et témoignages</h3>
+    <p><span class="a-completer">À compléter</span></p>
+  </div>
+</section>
+
+<section id="rejoindre" class="rejoindre">
+  <div class="conteneur">
+    <h2 style="display:inline-block">Nous rejoindre</h2>
+    <p>Signez la pétition, rejoignez le collectif de votre lycée ou écrivez-nous.</p>
+    <a class="bouton" href="https://www.change.org/p/pour-la-reprise-imm%C3%A9diate-et-durable-des-cours-dans-les-lyc%C3%A9es-parisiens">Signer la pétition</a>
+    <p style="margin-top:1.5rem">Contact : <span class="a-completer">adresse e-mail à venir</span></p>
+    <p>Participer au collectif : <span class="a-completer">modalités à préciser</span></p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="conteneur">
+    <p><strong>Collectif des parents mobilisés des 21 lycées des académies de Paris et de Créteil</strong><br>
+    Stop aux blocages, respect du droit à l'éducation.</p>
+    <p>Mentions légales et protection des données personnelles : <span class="a-completer" style="color:var(--texte)">à compléter</span></p>
+  </div>
+</footer>
+
+</body>
+</html>
